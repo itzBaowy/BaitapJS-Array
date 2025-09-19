@@ -1,72 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <p class="note">Thêm số vào mảng:</p>
 
     <div class="input-area">
-        <input type="number" id="numberInput" placeholder="Nhập số nguyên" />
-        <button onclick="addNumber()">Thêm số</button>
+      <input type="number" id="numberInput" placeholder="Nhập số nguyên" />
+      <button onclick="addNumber()">Thêm số</button>
     </div>
 
-    <div class="output" id="arrayDisplay">Các phần tử trong mảng: </div>
+    <div class="output" id="arrayDisplay">Các phần tử trong mảng:</div>
 
     <div>
-        <h1>1. Tính tổng số dương</h1>
-        <button onclick="tinhTongSoDuong()">Tính tổng</button>
-        <div id="result1"></div>
+      <h1>1. Tính tổng số dương</h1>
+      <button onclick="tinhTongSoDuong()">Tính tổng</button>
+      <div id="result1"></div>
     </div>
     <div>
-        <h1>2. Đếm số dương</h1>
-        <button onclick="demSoDuong()">Đếm số dương</button>
-        <div id="result2" class="result"></div>
+      <h1>2. Đếm số dương</h1>
+      <button onclick="demSoDuong()">Đếm số dương</button>
+      <div id="result2" class="result"></div>
     </div>
     <div>
-        <h1>3. Tìm số nhỏ nhất</h1>
-        <button onclick="timSoNhoNhat()">Tìm số nhỏ nhất</button>
-        <div id="result3" class="result"></div>
+      <h1>3. Tìm số nhỏ nhất</h1>
+      <button onclick="timSoNhoNhat()">Tìm số nhỏ nhất</button>
+      <div id="result3" class="result"></div>
     </div>
     <div>
-        <h1>4. Tìm số dương nhỏ nhất</h1>
-        <button onclick="timSoDuongNhoNhat()">Tìm số dương nhỏ nhất</button>
-        <div id="result4" class="result"></div>
+      <h1>4. Tìm số dương nhỏ nhất</h1>
+      <button onclick="timSoDuongNhoNhat()">Tìm số dương nhỏ nhất</button>
+      <div id="result4" class="result"></div>
     </div>
     <div>
-        <h1>5. Tìm số chẵn cuối</h1>
-        <button onclick="timSoChanCuoi()">Tìm số chẵn cuối</button>
-        <div id="result5" class="result"></div>
+      <h1>5. Tìm số chẵn cuối</h1>
+      <button onclick="timSoChanCuoi()">Tìm số chẵn cuối</button>
+      <div id="result5" class="result"></div>
     </div>
     <div>
-        <h1>6. Đổi chỗ 2 giá trị</h1>
-        <button onclick="doiChoGiaTri()">Đổi chỗ 2 giá trị</button><br />
-        <input id="index1" type="number" placeholder="Vị trí 1" />
-        <input id="index2" type="number" placeholder="Vị trí 2" />
-        <div id="result6" class="result"></div>
+      <h1>6. Đổi chỗ 2 giá trị</h1>
+      <button onclick="doiChoGiaTri()">Đổi chỗ 2 giá trị</button><br />
+      <input id="index1" type="number" placeholder="Vị trí 1" />
+      <input id="index2" type="number" placeholder="Vị trí 2" />
+      <div id="result6" class="result"></div>
     </div>
-        <div class="input-area">
-            <input type="number" id="floatInput" step="any" placeholder="Nhập số thực" />
-            <button onclick="addFloatNumber()">Thêm số</button>
-        </div>
+    <div class="input-area">
+      <input
+        type="number"
+        id="floatInput"
+        step="any"
+        placeholder="Nhập số thực"
+      />
+      <button onclick="addFloatNumber()">Thêm số</button>
+    </div>
 
-        <div class="output" id="floatArrayDisplay">Mảng số thực: </div>
-    </div>
-    <button onclick="demSoNguyen()">Đếm số nguyên (từ mảng thực)</button>
-    <div id="result9" class="result"></div>
-
-    </div>
-    <div>
-        <h1>10. So sánh âm và dương</h1>
-        <button onclick="soSanhAmDuong()">So sánh số âm và dương</button>
-        <div id="result10" class="result"></div>
-    </div>
+    <div></div>
 
     <script src="main.js"></script>
-</body>
-
+  </body>
 </html>
